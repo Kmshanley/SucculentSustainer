@@ -1,0 +1,33 @@
+"Source:","C:\Users\Kieran Shanley\Documents\SS\SS.sch"
+"Date:","4/13/2020 5:32:09 PM"
+"Tool:","Eeschema (5.1.5)-3"
+"Generator:","D:\Apps\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","10"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Category","DK_Datasheet_Link","DK_Detail_Page","Description","Digi-Key_PN","Family","MPN","Manufacturer","Status"
+"","","Display1","SSD1306 128x32","dk_Display-Modules-LCD-OLED-Graphic:O128O032DWPP3N0000_Obsolete","digikey-footprints:OLED_128x32_Folded","https://media.digikey.com/pdf/Data%20Sheets/Vishay%20Dale%20PDFs/O128O032DWPP3N00000.pdf","Optoelectronics","https://media.digikey.com/pdf/Data%20Sheets/Vishay%20Dale%20PDFs/O128O032DWPP3N00000.pdf","/product-detail/en/vishay-dale/O128O032DWPP3N0000/541-3475-ND/7041846","128X32 WHITE GRAPHIC (COG) OLED","541-3475-ND","Display Modules - LCD, OLED, Graphic","O128O032DWPP3N0000","Vishay Dale","Obsolete NonStock"
+"","","Growlight1","LED","Device:LED","","~","","","","","","","","",""
+"","","MCU1","WeMos_D1_mini","MCU_Module:WeMos_D1_mini","Module:WEMOS_D1_mini_light","https://wiki.wemos.cc/products:d1:d1_mini#documentation","","","","","","","","",""
+"","","Pump1","Motor_DC","Motor:Motor_DC","","~","","","","","","","","",""
+"","","Q1","FQP30N06L","dk_Transistors-FETs-MOSFETs-Single:FQP30N06L","digikey-footprints:TO-220-3","https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf","Discrete Semiconductor Products","https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf","/product-detail/en/on-semiconductor/FQP30N06L/FQP30N06L-ND/1055122","MOSFET N-CH 60V 32A TO-220","FQP30N06L-ND","Transistors - FETs, MOSFETs - Single","FQP30N06L","ON Semiconductor","Active"
+"","","Q2","FQP30N06L","dk_Transistors-FETs-MOSFETs-Single:FQP30N06L","digikey-footprints:TO-220-3","https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf","Discrete Semiconductor Products","https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf","/product-detail/en/on-semiconductor/FQP30N06L/FQP30N06L-ND/1055122","MOSFET N-CH 60V 32A TO-220","FQP30N06L-ND","Transistors - FETs, MOSFETs - Single","FQP30N06L","ON Semiconductor","Active"
+"","","R1","10k Ohm","Device:R_Small_US","","~","","","","","","","","",""
+"","","R2","10k Ohm","Device:R_Small_US","","~","","","","","","","","",""
+"","","REG1","L7805CV","dk_PMIC-Voltage-Regulators-Linear:L7805CV","digikey-footprints:TO-220-3","http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf","Integrated Circuits (ICs)","http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf","/product-detail/en/stmicroelectronics/L7805CV/497-1443-5-ND/585964","IC REG LINEAR 5V 1.5A TO220AB","497-1443-5-ND","PMIC - Voltage Regulators - Linear","L7805CV","STMicroelectronics","Active"
+"","","Sensor1","BME280","dk_Humidity-Moisture-Sensors:BME280","digikey-footprints:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280","https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf","Sensors, Transducers","https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf","/product-detail/en/bosch-sensortec/BME280/828-1063-1-ND/6136314","SENSOR PRESSURE HUMIDITY TEMP","828-1063-1-ND","Humidity, Moisture Sensors","BME280","Bosch Sensortec","Active"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Category","DK_Datasheet_Link","DK_Detail_Page","Description","Digi-Key_PN","Family","MPN","Manufacturer","Status"
+"1","1","Display1","SSD1306 128x32","dk_Display-Modules-LCD-OLED-Graphic:O128O032DWPP3N0000_Obsolete","digikey-footprints:OLED_128x32_Folded","https://media.digikey.com/pdf/Data%20Sheets/Vishay%20Dale%20PDFs/O128O032DWPP3N00000.pdf","Optoelectronics","https://media.digikey.com/pdf/Data%20Sheets/Vishay%20Dale%20PDFs/O128O032DWPP3N00000.pdf","/product-detail/en/vishay-dale/O128O032DWPP3N0000/541-3475-ND/7041846","128X32 WHITE GRAPHIC (COG) OLED","541-3475-ND","Display Modules - LCD, OLED, Graphic","O128O032DWPP3N0000","Vishay Dale","Obsolete NonStock"
+"2","1","Growlight1","LED","Device:LED","","~","","","","","","","","",""
+"3","1","MCU1","WeMos_D1_mini","MCU_Module:WeMos_D1_mini","Module:WEMOS_D1_mini_light","https://wiki.wemos.cc/products:d1:d1_mini#documentation","","","","","","","","",""
+"4","1","Pump1","Motor_DC","Motor:Motor_DC","","~","","","","","","","","",""
+"5","2","Q1, Q2","FQP30N06L","dk_Transistors-FETs-MOSFETs-Single:FQP30N06L","digikey-footprints:TO-220-3","https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf","Discrete Semiconductor Products","https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf","/product-detail/en/on-semiconductor/FQP30N06L/FQP30N06L-ND/1055122","MOSFET N-CH 60V 32A TO-220","FQP30N06L-ND","Transistors - FETs, MOSFETs - Single","FQP30N06L","ON Semiconductor","Active"
+"6","2","R1, R2","10k Ohm","Device:R_Small_US","","~","","","","","","","","",""
+"7","1","REG1","L7805CV","dk_PMIC-Voltage-Regulators-Linear:L7805CV","digikey-footprints:TO-220-3","http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf","Integrated Circuits (ICs)","http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf","/product-detail/en/stmicroelectronics/L7805CV/497-1443-5-ND/585964","IC REG LINEAR 5V 1.5A TO220AB","497-1443-5-ND","PMIC - Voltage Regulators - Linear","L7805CV","STMicroelectronics","Active"
+"8","1","Sensor1","BME280","dk_Humidity-Moisture-Sensors:BME280","digikey-footprints:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280","https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf","Sensors, Transducers","https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf","/product-detail/en/bosch-sensortec/BME280/828-1063-1-ND/6136314","SENSOR PRESSURE HUMIDITY TEMP","828-1063-1-ND","Humidity, Moisture Sensors","BME280","Bosch Sensortec","Active"
