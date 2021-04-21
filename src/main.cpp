@@ -19,9 +19,9 @@ void pumpRun();
 void sendEnvData();
 void updateBME280Data();
 
-const char* ssid = "kierandevice";
-const char* password = "wemons211";
-const char* mqtt_server = "192.168.8.1";
+const char* ssid = "";
+const char* password = "";
+const char* mqtt_server = "";
 const char* devname = "ESP8266_test";
 
 const uint8_t lightPin = D4;
